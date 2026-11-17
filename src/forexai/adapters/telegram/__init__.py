@@ -1,0 +1,2 @@
+"""Telegram output adapter."""
+

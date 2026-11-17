@@ -1,0 +1,44 @@
+instruments:
+  - canonical: EURUSD
+    broker_symbol: EURUSD
+    kind: forex
+    base: EUR
+    quote: USD
+    enabled: true
+  - canonical: GBPUSD
+    broker_symbol: GBPUSD
+    kind: forex
+    base: GBP
+    quote: USD
+    enabled: true
+  - canonical: USDJPY
+    broker_symbol: USDJPY
+    kind: forex
+    base: USD
+    quote: JPY
+    enabled: true
+  - canonical: USDCHF
+    broker_symbol: USDCHF
+    kind: forex
+    base: USD
+    quote: CHF
+    enabled: true
+  - canonical: USDCAD
+    broker_symbol: USDCAD
+    kind: forex
+    base: USD
+    quote: CAD
+    enabled: true
+  - canonical: AUDUSD
+    broker_symbol: AUDUSD
+    kind: forex
+    base: AUD
+    quote: USD
+    enabled: true
+  - canonical: XAUUSD
+    broker_symbol: XAUUSD
+    kind: commodity_fx
+    base: XAU
+    quote: USD
+    enabled: true
+

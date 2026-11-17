@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Calendar Events</title>
+    <item>
+      <title>United States Non Farm Payrolls</title>
+      <link>https://www.myfxbook.com/forex-economic-calendar/united-states/non-farm-payrolls</link>
+      <pubDate>Fri, 7 Aug 2026 12:30 GMT</pubDate>
+      <description>
+        &amp;#60;table&amp;#62;
+          &amp;#60;tr&amp;#62;
+            &amp;#60;td&amp;#62;-4328 seconds&amp;#60;/td&amp;#62;
+            &amp;#60;td&amp;#62;&amp;#60;span class=&amp;#34;sprite sprite-common sprite-high-impact&amp;#34;&amp;#62;&amp;#60;/span&amp;#62;&amp;#60;/td&amp;#62;
+            &amp;#60;td&amp;#62;20.0K&amp;#60;/td&amp;#62;
+            &amp;#60;td&amp;#62;80.0K&amp;#60;/td&amp;#62;
+            &amp;#60;td&amp;#62;-23.0K&amp;#60;/td&amp;#62;
+          &amp;#60;/tr&amp;#62;
+        &amp;#60;/table&amp;#62;
+      </description>
+    </item>
+    <item>
+      <title>Canada Employment Change</title>
+      <link>https://www.myfxbook.com/forex-economic-calendar/canada/employment-change</link>
+      <pubDate>Fri, 7 Aug 2026 12:30 GMT</pubDate>
+      <description>
+        &amp;#60;table&amp;#62;&amp;#60;tr&amp;#62;
+          &amp;#60;td&amp;#62;0 seconds&amp;#60;/td&amp;#62;
+          &amp;#60;td&amp;#62;&amp;#60;span class=&amp;#34;sprite sprite-common sprite-medium-impact&amp;#34;&amp;#62;&amp;#60;/span&amp;#62;&amp;#60;/td&amp;#62;
+          &amp;#60;td&amp;#62;60.0K&amp;#60;/td&amp;#62;
+          &amp;#60;td&amp;#62;15.0K&amp;#60;/td&amp;#62;
+          &amp;#60;td&amp;#62;22.0K&amp;#60;/td&amp;#62;
+        &amp;#60;/tr&amp;#62;&amp;#60;/table&amp;#62;
+      </description>
+    </item>
+  </channel>
+</rss>
+

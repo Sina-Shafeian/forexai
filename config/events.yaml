@@ -1,0 +1,12 @@
+calendar:
+  provider: myfxbook_rss
+  unavailable_behavior: warn_and_continue
+  cache_minutes: 30
+  stale_cache_if_error_hours: 6
+  lookback_hours: 4
+  lookahead_hours: 24
+  high_impact_before_minutes: 60
+  high_impact_after_minutes: 30
+  myfxbook_endpoint: https://www.myfxbook.com/rss/forex-economic-calendar-events
+  fmp_endpoint: https://financialmodelingprep.com/stable/economic-calendar
+  user_agent: ForexAI/0.1 (personal demo economic-calendar reader)

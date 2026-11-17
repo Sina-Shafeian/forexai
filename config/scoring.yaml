@@ -1,0 +1,17 @@
+scoring:
+  minimum_to_send: 75
+  max_alerts_per_utc_day: 5
+  weights:
+    multi_timeframe_structure: 25
+    setup_trigger: 20
+    trend_momentum: 15
+    regime_volatility: 15
+    currency_relative: 15
+    session_execution: 10
+  gates:
+    maximum_spread_to_atr: 0.12
+    correlation_lookback_bars: 120
+    maximum_directional_correlation: 0.80
+    max_same_currency_direction_alerts: 2
+    reject_conflicting_context: true
+    reject_duplicate_signal: true

@@ -1,0 +1,78 @@
+app:
+  name: ForexAI
+  environment: demo
+  timezone: UTC
+  log_level: INFO
+  state_database: data/state/forexai.sqlite3
+  raw_data_directory: data/raw
+
+mt5:
+  terminal_path: "C:/Program Files/MetaTrader 5/terminal64.exe"
+  require_demo_account: true
+  initialize_timeout_ms: 60000
+  broker_clock_state_path: data/state/broker_clock.json
+  offset_round_minutes: 15
+  maximum_offset_hours: 14
+  maximum_tick_age_seconds: 120
+  future_tolerance_seconds: 5
+
+scan:
+  poll_seconds: 20
+  bars_per_timeframe: 500
+  timeframes:
+    highest: D1
+    context: H4
+    setup: H1
+    trigger: M15
+  completed_bars_only: true
+  max_signal_age_minutes: 20
+
+telegram:
+  enabled: true
+  parse_mode: HTML
+  display_timezone: Asia/Tehran
+
+entry:
+  maximum_entry_deviation_atr_fraction: 0.15
+
+risk:
+  account_balance_source: mt5
+  risk_per_trade_percent: 0.5
+
+market_session:
+  block_before_close_minutes: 60
+  stale_tick_threshold_seconds: 120
+  export_relative_path: ForexAI/symbol_sessions.csv
+  export_max_age_minutes: 15
+
+auto_execution:
+  enabled: false
+  demo_only: true
+  market_orders_only: true
+  magic: 26081101
+  comment: ForexAI
+  maximum_price_deviation_points: 20
+
+semi_execution:
+  enabled: true
+  demo_only: true
+  market_orders_only: true
+  signal_max_age_minutes: 15
+  magic: 26081101
+  comment: ForexAI-Semi
+  maximum_price_deviation_points: 20
+
+strategy:
+  name: trend_aligned_pullback_v1
+  rule_version: 0.1.0
+  swing_width: 2
+  equality_tolerance_points: 2
+  break_buffer_points: 1
+  stop_buffer_points: 2
+  target_r_multiple: 2.0
+  minimum_risk_reward: 1.8
+  atr_length: 14
+  ema_fast: 20
+  ema_slow: 50
+  rsi_length: 14
+  minimum_history_bars: 120
